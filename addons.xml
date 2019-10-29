@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+  <addon id="repository.Obliback" version="1.0.1" name="[B][COLOR lime]• Obliback [COLOR red]Repository[/COLOR] [/B] " provider-name="megan">
+  <extension point="xbmc.addon.repository" name="Obliback Repository">
+    <info compressed="false">https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/Neon1478/clsese/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Repository</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="plugin.video.SportsDevil"
   version="2017.02.29"
   name="SportsDevil"
@@ -12,17 +24,6 @@
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
   </requires>
-  <extension point="xbmc.addon.repository" name="Obliback Repository">
-<info compressed="false">
-https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml
-</info>
-<checksum>
-https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml.md5
-</checksum>
-<datadir zip="true">
-https://raw.githubusercontent.com/Neon1478/clsese/master/
-</datadir>
-</extension>
   <extension 
     point="xbmc.python.pluginsource"
     library="default.py">
@@ -43,17 +44,6 @@ https://raw.githubusercontent.com/Neon1478/clsese/master/
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.video.gdrive" optional="true" />
     </requires>
-     <extension point="xbmc.addon.repository" name="Obliback Repository">
-<info compressed="false">
-https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml
-</info>
-<checksum>
-https://raw.githubusercontent.com/Neon1478/clsese/master/addons.xml.md5
-</checksum>
-<datadir zip="true">
-https://raw.githubusercontent.com/Neon1478/clsese/master/
-</datadir>
-</extension>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
